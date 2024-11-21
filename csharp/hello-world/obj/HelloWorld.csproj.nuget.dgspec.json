@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Exercism\\csharp\\hello-world\\HelloWorld.csproj": {}
+    "E:\\PracticeCode\\Exercism\\csharp\\hello-world\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Exercism\\csharp\\hello-world\\HelloWorld.csproj": {
+    "E:\\PracticeCode\\Exercism\\csharp\\hello-world\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Exercism\\csharp\\hello-world\\HelloWorld.csproj",
+        "projectUniqueName": "E:\\PracticeCode\\Exercism\\csharp\\hello-world\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\Admin\\Exercism\\csharp\\hello-world\\HelloWorld.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Exercism\\csharp\\hello-world\\obj\\",
+        "projectPath": "E:\\PracticeCode\\Exercism\\csharp\\hello-world\\HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\nttha\\.nuget\\packages\\",
+        "outputPath": "E:\\PracticeCode\\Exercism\\csharp\\hello-world\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nttha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,16 +63,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
         }
       }
     }
