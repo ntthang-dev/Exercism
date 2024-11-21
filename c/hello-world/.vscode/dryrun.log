@@ -1,7 +1,4 @@
 make.exe --dry-run --always-make --keep-going --print-directory
-make.exe: Đang vào thư mục « c:/Users/Admin/Exercism/c/hello-world »
-echo Compiling tests.out
-cc -std=c99 -g -Wall -Wextra -pedantic -Werror -Wmissing-declarations -DUNITY_SUPPORT_64 src/*.c test/vendor/unity.c test/*.c -o tests.out -lm
-./tests.out
-make.exe: Đang rời khỏi thư mục « c:/Users/Admin/Exercism/c/hello-world »
- 
+'make.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
