@@ -1,6 +1,6 @@
 #include "difference_of_squares.h"
 
-// Using general eqaution to Solve
+// Using general equation to Solve
 
 // Sum of squares function
 unsigned int sum_of_squares(unsigned int number)
