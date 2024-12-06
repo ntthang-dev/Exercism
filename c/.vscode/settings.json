@@ -4,5 +4,9 @@
         "Laille",
         "memcheck",
         "ryanplusplus"
-    ]
+    ],
+    "files.associations": {
+        "*.asm": "platformio-debug.asm",
+        "collatz_conjecture.h": "c"
+    }
 }
